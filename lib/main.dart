@@ -6,6 +6,8 @@ import 'package:flash_chat/screens/chat_screen.dart';
 
 void main() => runApp(FlashChat());
 
+//this is the stateless widget we can convert to statefull to initialize state also in welcome screen
+
 class FlashChat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
